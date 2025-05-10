@@ -1,5 +1,5 @@
 
-import { Award, Briefcase, Users } from "lucide-react";
+import { Award, Gamepad, Users } from "lucide-react";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
             About <span className="text-gradient">WIN IT STUDIOS</span>
           </h2>
           <p className="text-muted-foreground">
-            We're a passionate team of designers, developers, and strategists on a mission to help brands succeed in the digital world.
+            A passionate team of game developers, artists, and designers creating extraordinary gaming experiences for players worldwide.
           </p>
         </div>
 
@@ -22,18 +22,18 @@ const About = () => {
             </div>
             <h3 className="text-xl font-bold mb-2">Our Mission</h3>
             <p className="text-muted-foreground">
-              To create innovative digital experiences that help our clients achieve their business goals and stand out from the crowd.
+              To create innovative, engaging games that push boundaries and deliver exceptional player experiences across all platforms.
             </p>
           </div>
 
           {/* Experience */}
           <div className="bg-white rounded-lg shadow-md p-8 hover-scale">
             <div className="w-12 h-12 bg-studio-purple/10 rounded-full flex items-center justify-center mb-4">
-              <Briefcase className="h-6 w-6 text-studio-purple" />
+              <Gamepad className="h-6 w-6 text-studio-purple" />
             </div>
             <h3 className="text-xl font-bold mb-2">Our Experience</h3>
             <p className="text-muted-foreground">
-              With over a decade of experience, we've helped countless brands transform their digital presence and achieve remarkable growth.
+              With over a decade in game development, we've created chart-topping mobile games, immersive console experiences, and cutting-edge PC titles.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const About = () => {
             </div>
             <h3 className="text-xl font-bold mb-2">Our Team</h3>
             <p className="text-muted-foreground">
-              Our diverse team brings together creativity, technical expertise, and strategic thinking to deliver exceptional results.
+              Our global team of talented developers, artists, designers, and storytellers collaborate to create games that captivate and inspire.
             </p>
           </div>
         </div>

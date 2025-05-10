@@ -1,27 +1,27 @@
 
-import { Code, Layout, Palette, Smartphone } from "lucide-react";
+import { Code, Gamepad, Palette, Monitor } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: <Palette className="h-10 w-10 text-studio-purple" />,
-      title: "Brand Identity",
-      description: "We craft unique and memorable brand identities that resonate with your audience and set you apart from competitors.",
+      icon: <Gamepad className="h-10 w-10 text-studio-purple" />,
+      title: "Game Development",
+      description: "Full-cycle game development for PC, console, and mobile platforms, from concept to launch.",
     },
     {
-      icon: <Layout className="h-10 w-10 text-studio-purple" />,
-      title: "Web Design",
-      description: "Beautiful, functional websites tailored to your goals, with seamless user experiences across all devices.",
+      icon: <Palette className="h-10 w-10 text-studio-purple" />,
+      title: "Art & Animation",
+      description: "Stunning 2D and 3D art, character design, environments, and animations that bring games to life.",
     },
     {
       icon: <Code className="h-10 w-10 text-studio-purple" />,
-      title: "Web Development",
-      description: "Custom web applications and sites built with the latest technologies for optimal performance and scalability.",
+      title: "Game Engineering",
+      description: "Custom game engines, gameplay programming, optimization, and cross-platform technology solutions.",
     },
     {
-      icon: <Smartphone className="h-10 w-10 text-studio-purple" />,
-      title: "Mobile Apps",
-      description: "Native and cross-platform mobile applications designed to provide exceptional user experiences.",
+      icon: <Monitor className="h-10 w-10 text-studio-purple" />,
+      title: "QA & Testing",
+      description: "Comprehensive quality assurance and testing to ensure flawless gameplay experiences across all platforms.",
     }
   ];
 
@@ -33,7 +33,7 @@ const Services = () => {
             Our <span className="text-gradient">Services</span>
           </h2>
           <p className="text-muted-foreground">
-            We offer a range of digital services to help your brand succeed in today's competitive landscape.
+            From concept to launch, we provide comprehensive game development solutions for studios and publishers worldwide.
           </p>
         </div>
 

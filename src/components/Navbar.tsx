@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { Menu, Gamepad } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,6 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto flex h-16 items-center justify-between">
         <div className="flex items-center">
           <a href="#" className="flex items-center space-x-2">
+            <Gamepad className="h-6 w-6 text-studio-purple" />
             <span className="font-display text-xl font-bold text-studio-purple">WIN IT</span>
             <span className="font-display text-xl font-bold">STUDIOS</span>
           </a>
@@ -25,12 +26,12 @@ const Navbar = () => {
             Services
           </a>
           <a href="#work" className="text-sm font-medium hover:text-studio-purple transition-colors">
-            Work
+            Games
           </a>
           <a href="#contact" className="text-sm font-medium hover:text-studio-purple transition-colors">
             Contact
           </a>
-          <Button className="bg-studio-purple hover:bg-studio-purple/90">Get Started</Button>
+          <Button className="bg-studio-purple hover:bg-studio-purple/90">Play Now</Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -69,7 +70,7 @@ const Navbar = () => {
               className="text-sm font-medium p-2 hover:bg-muted rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
-              Work
+              Games
             </a>
             <a 
               href="#contact" 
@@ -79,7 +80,7 @@ const Navbar = () => {
               Contact
             </a>
             <Button className="bg-studio-purple hover:bg-studio-purple/90 w-full">
-              Get Started
+              Play Now
             </Button>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="font-display text-xl font-bold text-white">STUDIOS</span>
             </div>
             <p className="text-studio-gray max-w-md">
-              A creative digital studio helping brands stand out and succeed with innovative design, development, and strategic solutions.
+              A premier game development studio creating immersive, innovative games for players across mobile, console, and PC platforms worldwide.
             </p>
           </div>
 
@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#about" className="text-studio-gray hover:text-studio-purple transition-colors">About</a></li>
               <li><a href="#services" className="text-studio-gray hover:text-studio-purple transition-colors">Services</a></li>
-              <li><a href="#work" className="text-studio-gray hover:text-studio-purple transition-colors">Work</a></li>
+              <li><a href="#work" className="text-studio-gray hover:text-studio-purple transition-colors">Games</a></li>
               <li><a href="#contact" className="text-studio-gray hover:text-studio-purple transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-studio-gray hover:text-studio-purple transition-colors">Privacy Policy</a></li>
               <li><a href="#" className="text-studio-gray hover:text-studio-purple transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-studio-gray hover:text-studio-purple transition-colors">Cookie Policy</a></li>
+              <li><a href="#" className="text-studio-gray hover:text-studio-purple transition-colors">EULA</a></li>
             </ul>
           </div>
         </div>
