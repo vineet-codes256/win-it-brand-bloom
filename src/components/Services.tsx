@@ -1,27 +1,27 @@
 
-import { Code, Gamepad, Palette, Monitor } from "lucide-react";
+import { Code, Gamepad, Palette, Rocket } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
       icon: <Gamepad className="h-10 w-10 text-studio-purple" />,
       title: "Game Development",
-      description: "Full-cycle game development for PC, console, and mobile platforms, from concept to launch.",
+      description: "Creating innovative gameplay experiences with modern game engines and cutting-edge technology.",
     },
     {
       icon: <Palette className="h-10 w-10 text-studio-purple" />,
       title: "Art & Animation",
-      description: "Stunning 2D and 3D art, character design, environments, and animations that bring games to life.",
+      description: "Crafting unique visual styles and engaging character designs that stand out in today's crowded market.",
     },
     {
       icon: <Code className="h-10 w-10 text-studio-purple" />,
-      title: "Game Engineering",
-      description: "Custom game engines, gameplay programming, optimization, and cross-platform technology solutions.",
+      title: "Technical Innovation",
+      description: "Pushing boundaries with creative coding solutions and performance optimization for immersive experiences.",
     },
     {
-      icon: <Monitor className="h-10 w-10 text-studio-purple" />,
-      title: "QA & Testing",
-      description: "Comprehensive quality assurance and testing to ensure flawless gameplay experiences across all platforms.",
+      icon: <Rocket className="h-10 w-10 text-studio-purple" />,
+      title: "Launch Strategy",
+      description: "Building community engagement and strategic marketing approaches to successfully launch indie titles.",
     }
   ];
 
@@ -30,10 +30,10 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our <span className="text-gradient">Services</span>
+            Our <span className="text-gradient">Expertise</span>
           </h2>
           <p className="text-muted-foreground">
-            From concept to launch, we provide comprehensive game development solutions for studios and publishers worldwide.
+            Though we're a new studio, our team brings passion and fresh perspectives to these core areas of game development.
           </p>
         </div>
 

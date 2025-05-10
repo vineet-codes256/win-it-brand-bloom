@@ -9,19 +9,19 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-              Creating <span className="text-gradient">Immersive Gaming</span> Experiences
+              The Future of <span className="text-gradient">Gaming</span> Starts Here
             </h1>
             <p className="text-lg text-muted-foreground max-w-md">
-              WIN IT STUDIOS is a premier game development company specializing in AAA titles, 
-              mobile games, and interactive entertainment experiences.
+              WIN IT STUDIOS is a new, ambitious game development company with big dreams. 
+              We're just starting out, but our passion for creating innovative games knows no bounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-studio-purple hover:bg-studio-purple/90 px-8 py-6 text-base">
-                View Our Games
+                Our Vision
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button variant="outline" className="px-8 py-6 text-base">
-                Join Our Team
+                Join Our Journey
               </Button>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Hero = () => {
                   <div className="text-center p-8">
                     <Gamepad className="h-16 w-16 text-studio-purple mx-auto mb-4" />
                     <h3 className="text-2xl font-bold text-studio-purple">WIN IT STUDIOS</h3>
-                    <p className="text-white mt-2">Game Development Excellence</p>
+                    <p className="text-white mt-2">Where Ambition Meets Gameplay</p>
                   </div>
                 </div>
               </div>

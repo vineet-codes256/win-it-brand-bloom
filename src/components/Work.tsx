@@ -6,17 +6,17 @@ const Work = () => {
   const projects = [
     {
       title: "Galactic Conquest",
-      category: "Mobile Strategy Game",
+      category: "Concept - Mobile Strategy Game",
       image: "bg-gradient-to-br from-blue-500 to-purple-500"
     },
     {
       title: "Shadow Warriors",
-      category: "Action RPG",
+      category: "In Development - Action RPG",
       image: "bg-gradient-to-br from-green-500 to-teal-500"
     },
     {
       title: "Speed Racers Ultimate",
-      category: "Racing Simulator",
+      category: "Concept - Racing Simulator",
       image: "bg-gradient-to-br from-amber-500 to-orange-500"
     }
   ];
@@ -26,10 +26,10 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our <span className="text-gradient">Games</span>
+            Our <span className="text-gradient">Vision</span>
           </h2>
           <p className="text-studio-gray">
-            Explore our latest game releases and see why millions of players worldwide choose WIN IT STUDIOS games.
+            While we're just starting out, these are the innovative game concepts we're passionate about bringing to life.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const Work = () => {
 
         <div className="mt-12 text-center">
           <Button variant="outline" className="border-white text-white hover:bg-white hover:text-studio-dark-purple">
-            View All Games
+            Learn More About Our Vision
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>
