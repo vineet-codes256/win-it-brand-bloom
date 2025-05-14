@@ -10,7 +10,7 @@ const About = () => {
             About <span className="text-gradient">WIN IT STUDIOS</span>
           </h2>
           <p className="text-muted-foreground">
-            A passionate team of game developers, artists, and designers creating extraordinary gaming experiences for players worldwide.
+            A passionate team of gaming enthusiasts taking our first steps into game development, driven by our love for games and fresh perspectives.
           </p>
         </div>
 
@@ -31,9 +31,9 @@ const About = () => {
             <div className="w-12 h-12 bg-studio-purple/10 rounded-full flex items-center justify-center mb-4">
               <Gamepad className="h-6 w-6 text-studio-purple" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Our Experience</h3>
+            <h3 className="text-xl font-bold mb-2">Our Background</h3>
             <p className="text-muted-foreground">
-              With over a decade in game development, we've created chart-topping mobile games, immersive console experiences, and cutting-edge PC titles.
+              Though new to development, we're lifelong gamers who've spent thousands of hours playing and analyzing games. We understand what players want because we are players ourselves.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const About = () => {
             </div>
             <h3 className="text-xl font-bold mb-2">Our Team</h3>
             <p className="text-muted-foreground">
-              Our global team of talented developers, artists, designers, and storytellers collaborate to create games that captivate and inspire.
+              Our passionate team brings fresh perspectives, technical skills, and a deep love for gaming as we embark on our journey to create games that captivate and inspire.
             </p>
           </div>
         </div>
