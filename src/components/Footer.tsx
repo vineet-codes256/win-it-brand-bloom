@@ -38,7 +38,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-studio-gray text-sm">
-            © {currentYear} WIN IT STUDIOS. All rights reserved.
+            © {currentYear} WIN IT STUDIOS. A brand under Rawat Innovations Pvt. Ltd. All rights reserved.
           </p>
           <p className="text-studio-gray text-sm mt-2 md:mt-0">
             <a href="https://winitstudios.com" className="hover:text-studio-purple transition-colors">

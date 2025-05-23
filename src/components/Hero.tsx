@@ -34,9 +34,7 @@ const Hero = () => {
                     <img
                       src="/logo.png"
                       alt="Win It Studios Logo"
-                      className="mx-auto mb-4"
-                      width={256}
-                      height={256}
+                      className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64"
                       loading="lazy"
                       decoding="async"
                     />

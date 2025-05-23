@@ -19,7 +19,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-5 w-5 text-studio-purple" />,
       title: "Address",
-      value: "123 Innovation Drive, Tech City",
+      value: "512 Innovation Drive, Tech City, UK",
     },
   ];
 

@@ -14,9 +14,7 @@ const Navbar = () => {
             <img
               src="/logo.png"
               alt="Win It Studios Logo"
-              className="text-studio-purple"
-              width={64}
-              height={64}
+              className="w-10 h-10 md:w-16 md:h-16 text-studio-purple"
               loading="lazy"
               decoding="async"
             />
