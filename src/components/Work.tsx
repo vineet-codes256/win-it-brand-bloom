@@ -40,7 +40,7 @@ const Work = () => {
               <div className="overflow-hidden rounded-lg group cursor-pointer hover-scale">
                 <div className={`aspect-video ${project.image} flex items-end p-6`}>
                   <div>
-                    <span className="text-xs uppercase tracking-wider bg-white/20 px-2 py-1 rounded-full">
+                    <span className="text-xs uppercase tracking-wider bg-white/20 px-2 py-1 rounded-full max-[390px]:text-xxs">
                       {project.category}
                     </span>
                     <h3 className="text-xl font-bold mt-2">{project.title}</h3>

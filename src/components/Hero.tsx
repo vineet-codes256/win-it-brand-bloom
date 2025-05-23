@@ -37,13 +37,15 @@ const Hero = () => {
                         <img
                           src="/logo.png"
                           alt="Win It Studios Logo"
-                          className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64"
+                          className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64 max-[390px]:w-14 max-[390px]:h-14"
                           loading="lazy"
                           decoding="async"
                         />
                       </AnimatedSection>
-                      <h3 className="text-2xl font-bold text-studio-purple">WIN IT STUDIOS</h3>
-                      <p className="text-white mt-2">Where Ambition Meets Gameplay</p>
+                      <h3 className="text-2xl font-bold text-studio-purple max-[390px]:text-base">
+                        WIN IT STUDIOS
+                      </h3>
+                      <p className="text-white mt-2 max-[390px]:text-xs">Where Ambition Meets Gameplay</p>
                     </div>
                   </div>
                 </div>
