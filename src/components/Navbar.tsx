@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, Gamepad } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,15 @@ const Navbar = () => {
       <div className="container mx-auto flex h-16 items-center justify-between">
         <div className="flex items-center">
           <a href="#" className="flex items-center space-x-2">
-            <Gamepad className="h-6 w-6 text-studio-purple" />
+            <img
+              src="/logo.png"
+              alt="Win It Studios Logo"
+              className="text-studio-purple"
+              width={64}
+              height={64}
+              loading="lazy"
+              decoding="async"
+            />
             <span className="font-display text-xl font-bold text-studio-purple">WIN IT</span>
             <span className="font-display text-xl font-bold">STUDIOS</span>
           </a>

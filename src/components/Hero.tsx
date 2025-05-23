@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Gamepad } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -31,7 +31,15 @@ const Hero = () => {
               <div className="aspect-video bg-gradient-to-br from-studio-purple to-studio-light-purple p-1">
                 <div className="w-full h-full bg-studio-dark-purple rounded-xl flex items-center justify-center">
                   <div className="text-center p-8">
-                    <Gamepad className="h-16 w-16 text-studio-purple mx-auto mb-4" />
+                    <img
+                      src="/logo.png"
+                      alt="Win It Studios Logo"
+                      className="mx-auto mb-4"
+                      width={256}
+                      height={256}
+                      loading="lazy"
+                      decoding="async"
+                    />
                     <h3 className="text-2xl font-bold text-studio-purple">WIN IT STUDIOS</h3>
                     <p className="text-white mt-2">Where Ambition Meets Gameplay</p>
                   </div>
