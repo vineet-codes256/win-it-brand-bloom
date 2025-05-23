@@ -1,6 +1,7 @@
 
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import AnimatedSection from "@/components/AnimatedSection";
 
 const Work = () => {
   const projects = [
@@ -35,21 +36,25 @@ const Work = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="overflow-hidden rounded-lg group cursor-pointer hover-scale">
-              <div className={`aspect-video ${project.image} flex items-end p-6`}>
-                <div>
-                  <span className="text-xs uppercase tracking-wider bg-white/20 px-2 py-1 rounded-full">
-                    {project.category}
-                  </span>
-                  <h3 className="text-xl font-bold mt-2">{project.title}</h3>
+            <AnimatedSection direction="right" key={index}>
+              <div className="overflow-hidden rounded-lg group cursor-pointer hover-scale">
+                <div className={`aspect-video ${project.image} flex items-end p-6`}>
+                  <div>
+                    <span className="text-xs uppercase tracking-wider bg-white/20 px-2 py-1 rounded-full">
+                      {project.category}
+                    </span>
+                    <h3 className="text-xl font-bold mt-2">{project.title}</h3>
+                  </div>
                 </div>
               </div>
-            </div>
+            </AnimatedSection>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <Button variant="outline" className="border-white text-white hover:bg-white hover:text-studio-dark-purple">
+          <Button 
+            variant="outline" 
+            className="border-white text-studio-dark-purple hover:bg-studio-purple hover:text-white hover:border-transparent animate-fade-in">
             Learn More About Our Vision
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

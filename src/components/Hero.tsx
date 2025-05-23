@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import AnimatedSection from "@/components/AnimatedSection";
 
 const Hero = () => {
   return (
@@ -25,26 +26,28 @@ const Hero = () => {
               </Button>
             </div>
           </div>
-          <div className="relative animate-fade-in">
-            <div className="absolute -z-10 w-3/4 h-3/4 bg-studio-light-purple/30 blur-3xl rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-            <div className="rounded-2xl overflow-hidden shadow-2xl border">
-              <div className="aspect-video bg-gradient-to-br from-studio-purple to-studio-light-purple p-1">
-                <div className="w-full h-full bg-studio-dark-purple rounded-xl flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <img
-                      src="/logo.png"
-                      alt="Win It Studios Logo"
-                      className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <h3 className="text-2xl font-bold text-studio-purple">WIN IT STUDIOS</h3>
-                    <p className="text-white mt-2">Where Ambition Meets Gameplay</p>
+          <AnimatedSection direction="right">
+            <div className="relative animate-fade-in">
+              <div className="absolute -z-10 w-3/4 h-3/4 bg-studio-light-purple/30 blur-3xl rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="rounded-2xl overflow-hidden shadow-2xl border">
+                <div className="aspect-video bg-gradient-to-br from-studio-purple to-studio-light-purple p-1">
+                  <div className="w-full h-full bg-studio-dark-purple rounded-xl flex items-center justify-center">
+                    <div className="text-center p-8">
+                      <img
+                        src="/logo.png"
+                        alt="Win It Studios Logo"
+                        className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <h3 className="text-2xl font-bold text-studio-purple">WIN IT STUDIOS</h3>
+                      <p className="text-white mt-2">Where Ambition Meets Gameplay</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </AnimatedSection>
         </div>
       </div>
     </section>

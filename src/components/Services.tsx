@@ -1,5 +1,6 @@
 
 import { Code, Gamepad, Palette, Rocket } from "lucide-react";
+import AnimatedSection from "@/components/AnimatedSection";
 
 const Services = () => {
   const services = [
@@ -39,11 +40,13 @@ const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="service-card group">
-              <div className="mb-6">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-3 group-hover:text-studio-purple transition-colors">{service.title}</h3>
-              <p className="text-muted-foreground">{service.description}</p>
-            </div>
+            <AnimatedSection direction="left" key={index}>
+              <div className="service-card group animate-fade-in">
+                <div className="mb-6">{service.icon}</div>
+                <h3 className="text-xl font-bold mb-3 group-hover:text-studio-purple transition-colors">{service.title}</h3>
+                <p className="text-muted-foreground">{service.description}</p>
+              </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>
