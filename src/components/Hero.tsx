@@ -33,13 +33,15 @@ const Hero = () => {
                 <div className="aspect-video bg-gradient-to-br from-studio-purple to-studio-light-purple p-1">
                   <div className="w-full h-full bg-studio-dark-purple rounded-xl flex items-center justify-center">
                     <div className="text-center p-8">
-                      <img
-                        src="/logo.png"
-                        alt="Win It Studios Logo"
-                        className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64"
-                        loading="lazy"
-                        decoding="async"
-                      />
+                      <AnimatedSection direction="down">
+                        <img
+                          src="/logo.png"
+                          alt="Win It Studios Logo"
+                          className="mx-auto mb-4 w-24 h-24 md:w-40 md:h-40 lg:w-64 lg:h-64"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </AnimatedSection>
                       <h3 className="text-2xl font-bold text-studio-purple">WIN IT STUDIOS</h3>
                       <p className="text-white mt-2">Where Ambition Meets Gameplay</p>
                     </div>

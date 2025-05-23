@@ -54,7 +54,7 @@ const Work = () => {
         <div className="mt-12 text-center">
           <Button 
             variant="outline" 
-            className="border-white text-studio-dark-purple hover:bg-studio-purple hover:text-white hover:border-transparent animate-fade-in">
+            className="bg-studio-purple border-transparent text-white hover:bg-white hover:text-studio-dark-purple hover:border-white animate-fade-in">
             Learn More About Our Vision
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
